@@ -1,0 +1,9 @@
+.Galeria img:hover {
+  opacity: 10;
+  z-index:500;
+  -moz-transform:scale(2);                   /* zoom en navegador Firefox */
+  -webkit-transform:scale(2);                /* zoom en navegador Chrome y Safari */
+  -o-transform:scale(2); }                   /* zoom en navegador Opera */
+/* cambiando el 3 variamos el nº de imágenes por fila */
+
+/* IE no soporta la propiedad transform de CSS 3 */
